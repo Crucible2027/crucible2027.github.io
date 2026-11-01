@@ -13,7 +13,7 @@ Run `python3 -m http.server 4173 --bind 127.0.0.1` from this directory, then ope
 - `assets/site.css`: responsive page styles.
 - `content/media.json`: demo videos, closed-loop rollouts, primitive gallery, and static demo gallery. A section becomes visible when its array contains media.
 
-The Abstract follows the framework overview and precedes the demo videos, with text drawn from the Crucible manuscript and a link in the page navigation.
+The Abstract follows the framework overview. A standalone presentation video appears next, using an H.264 MP4 with a preview image and native playback controls.
 
 The demo tasks appear in the order Chess, Microwave, Piano, with a title and task description above each pair. Each row compares the simulation on the left with its real-world recording on the right; narrow screens stack the pair vertically. Real-world recordings are encoded at 2× speed, including audio, and carry a visible speed label. The `realWorld` object in each demo entry defines the paired video; `playbackSpeed` labels its encoded speed. The MP4 files use fast-start metadata for progressive playback, with preview images under `assets/images/`.
 

@@ -61,6 +61,8 @@ figcaption strong { color: var(--ink); font-weight: 650; }
 .abstract-body { max-width: 1060px; margin: 0 auto; color: #454954; font-size: 1.0625rem; line-height: 1.8; }
 .abstract-body p { margin: 0; }
 .abstract-body p + p { margin-top: 14px; }
+.presentation-video { max-width: 1060px; margin: 0 auto; }
+.presentation-video video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; border-radius: 12px; background: #f4f5f7; object-fit: contain; }
 .media-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; }
 .demo-list { grid-template-columns: minmax(0, 1fr); gap: 48px; }
 .rollout-gallery { grid-template-columns: minmax(0, 1fr); }

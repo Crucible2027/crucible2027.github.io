@@ -11,7 +11,7 @@
   <title>Crucible: Counterfactual RLVR for Dexterous Manipulation Planners</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%23202228'/%3E%3Cpath d='M45 19a18 18 0 1 0 0 26' fill='none' stroke='%23ffffff' stroke-width='7' stroke-linecap='round'/%3E%3Ccircle cx='48' cy='14' r='5' fill='%23ca562c'/%3E%3C/svg%3E">
   <link rel="preload" href="assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="assets/site.css?v=8">
+  <link rel="stylesheet" href="assets/site.css?v=9">
   <script src="assets/site.js?v=5" defer></script>
 </head>
 <body>
@@ -25,6 +25,7 @@
     <nav class="section-nav" aria-label="Page sections" hidden>
       <a href="#overview">Overview</a>
       <a href="#abstract">Abstract</a>
+      <a href="#presentation">Presentation video</a>
       <a href="#demos" data-section-link="demos" hidden>Demos</a>
       <a href="#rollouts" data-section-link="rollouts" hidden>Rollouts</a>
       <a href="#primitives" data-section-link="primitives" hidden>Primitive gallery</a>
@@ -56,6 +57,16 @@
         <p>We present <span class="caption-name">Crucible</span>, a reinforcement learning from verifiable rewards (RLVR) framework with <em>counterfactual credit assignment</em>. <span class="caption-name">Crucible</span> builds on a new vision-language-primitive (VLP) model constructed from robot demonstrations, with each primitive paired with a privileged verifier. For a failed trajectory, our counterfactual RLVR algorithm intervenes on individual primitive decisions from saved states and replays the remaining plan, identifying <em>failure-critical decisions</em> whose replacement turns failure into success. Full returns from these alternative executions define advantages for masked PPO that updates only the identified decision tokens.</p>
         <p>Experiments on long-horizon tabletop manipulation show that counterfactual replay rescues 49.5% of eligible failures, revealing substantial actionable supervision from failed executions. In closed-loop tabletop grasping, counterfactual PPO achieves 62.38% overall success, compared with 55.45% for episode-return PPO and 56.44% for the shared SFT baseline.</p>
       </div>
+    </section>
+
+    <section id="presentation" class="section media-section" aria-labelledby="presentation-title">
+      <h2 id="presentation-title">Presentation video</h2>
+      <figure class="presentation-video">
+        <video controls playsinline preload="metadata" poster="assets/images/crucible-presentation-poster.jpg" width="1920" height="1080" aria-label="Crucible presentation video">
+          <source src="assets/videos/crucible-presentation.mp4" type="video/mp4">
+          Your browser does not support the video element.
+        </video>
+      </figure>
     </section>
 
     <section id="demos" class="section media-section" aria-labelledby="demos-title" hidden>
