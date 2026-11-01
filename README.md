@@ -19,7 +19,7 @@ The demo tasks appear in the order Chess, Microwave, Piano, with a title and tas
 
 Real-world audio uses vocal separation and background noise reduction, retaining piano notes and manipulation sounds. The processed audio preserves the timing of the 2× video.
 
-The closed-loop rollout video wall appears after the demos at the full content width. It preserves the uploaded 3840 × 2160 video and its 3 × 4 composition, with playback controls, looping, and a preview image.
+The closed-loop rollout video wall appears after the demos at the full content width. It includes the uploaded 3840 × 2160 video wall and a separate 1920 × 1080 real-world rollout recorded at 2× speed, both with playback controls, looping, and preview images.
 
 The Primitive gallery presents nine approved clips as individually playable videos in a responsive grid, with each primitive name shown above its video. Web copies are 960 × 540 H.264 videos under `assets/videos/primitives/`, with posters under `assets/images/primitives/`.
 

@@ -63,6 +63,15 @@
       "poster": "assets/images/closed-loop-rollouts-poster.jpg",
       "width": 3840,
       "height": 2160
+    },
+    {
+      "type": "video",
+      "title": "Real-world rollout",
+      "src": "assets/videos/real-world-rollout-2x.mp4",
+      "poster": "assets/images/real-world-rollout-2x-poster.jpg",
+      "width": 1920,
+      "height": 1080,
+      "playbackSpeed": 2
     }
   ],
   "primitives": [
