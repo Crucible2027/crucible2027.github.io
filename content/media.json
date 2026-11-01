@@ -1,0 +1,143 @@
+{
+  "demos": [
+    {
+      "type": "video",
+      "title": "Chess",
+      "caption": "Task: You are playing the white pieces; make your move.",
+      "src": "assets/videos/chess.mp4?v=2",
+      "poster": "assets/images/chess-poster.jpg?v=2",
+      "width": 2566,
+      "height": 1440,
+      "realWorld": {
+        "type": "video",
+        "title": "Chess (real-world)",
+        "src": "assets/videos/chess-real-2x.mp4?v=2",
+        "poster": "assets/images/chess-real-2x-poster.jpg",
+        "width": 1920,
+        "height": 1080,
+        "playbackSpeed": 2
+      }
+    },
+    {
+      "type": "video",
+      "title": "Microwave",
+      "caption": "Task: Put the bowl into the microwave.",
+      "src": "assets/videos/microwave.mp4",
+      "poster": "assets/images/microwave-poster.jpg",
+      "width": 2566,
+      "height": 1440,
+      "realWorld": {
+        "type": "video",
+        "title": "Microwave (real-world)",
+        "src": "assets/videos/microwave-real-2x.mp4?v=2",
+        "poster": "assets/images/microwave-real-2x-poster.jpg",
+        "width": 1920,
+        "height": 1080,
+        "playbackSpeed": 2
+      }
+    },
+    {
+      "type": "video",
+      "title": "Piano",
+      "caption": "Task: Press B6, F6, C6 one by one.",
+      "src": "assets/videos/piano.mp4?v=2",
+      "poster": "assets/images/piano-poster.jpg?v=2",
+      "width": 2566,
+      "height": 1440,
+      "realWorld": {
+        "type": "video",
+        "title": "Piano (real-world)",
+        "src": "assets/videos/piano-real-2x.mp4?v=2",
+        "poster": "assets/images/piano-real-2x-poster.jpg",
+        "width": 1920,
+        "height": 1080,
+        "playbackSpeed": 2
+      }
+    }
+  ],
+  "rollouts": [
+    {
+      "type": "video",
+      "title": "Closed-loop rollouts across twelve objects and scenes",
+      "src": "assets/videos/closed-loop-rollouts.mp4",
+      "poster": "assets/images/closed-loop-rollouts-poster.jpg",
+      "width": 3840,
+      "height": 2160
+    }
+  ],
+  "primitives": [
+    {
+      "type": "video",
+      "title": "rotate",
+      "src": "assets/videos/primitives/coffee_knob.mp4",
+      "poster": "assets/images/primitives/coffee_knob.jpg",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "type": "video",
+      "title": "trigger",
+      "src": "assets/videos/primitives/coffee_lever.mp4",
+      "poster": "assets/images/primitives/coffee_lever.jpg",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "type": "video",
+      "title": "press",
+      "src": "assets/videos/primitives/toaster_press.mp4",
+      "poster": "assets/images/primitives/toaster_press.jpg",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "type": "video",
+      "title": "open",
+      "src": "assets/videos/primitives/door_open.mp4",
+      "poster": "assets/images/primitives/door_open.jpg",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "type": "video",
+      "title": "close",
+      "src": "assets/videos/primitives/door_close.mp4",
+      "poster": "assets/images/primitives/door_close.jpg",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "type": "video",
+      "title": "extract",
+      "src": "assets/videos/primitives/tissue.mp4",
+      "poster": "assets/images/primitives/tissue.jpg",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "type": "video",
+      "title": "pull",
+      "src": "assets/videos/primitives/drawer.mp4",
+      "poster": "assets/images/primitives/drawer.jpg",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "type": "video",
+      "title": "push",
+      "src": "assets/videos/primitives/drawer_push.mp4",
+      "poster": "assets/images/primitives/drawer_push.jpg",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "type": "video",
+      "title": "slide",
+      "src": "assets/videos/primitives/table_push.mp4",
+      "poster": "assets/images/primitives/table_push.jpg",
+      "width": 960,
+      "height": 540
+    }
+  ],
+  "static-demos": []
+}
